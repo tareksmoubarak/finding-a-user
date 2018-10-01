@@ -14,6 +14,7 @@
 		2B2F386B21629AA100C64BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F386921629AA100C64BB0 /* LaunchScreen.storyboard */; };
 		2B2F387621629AA100C64BB0 /* Finding_A_UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F387521629AA100C64BB0 /* Finding_A_UserTests.swift */; };
 		2B2F388121629AA100C64BB0 /* Finding_A_UserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F388021629AA100C64BB0 /* Finding_A_UserUITests.swift */; };
+		2B2F389021629AAE00C64BB0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2F388F21629AAE00C64BB0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2B2F387C21629AA100C64BB0 /* Finding A UserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finding A UserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2F388021629AA100C64BB0 /* Finding_A_UserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_A_UserUITests.swift; sourceTree = "<group>"; };
 		2B2F388221629AA100C64BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2F388F21629AAE00C64BB0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2F389021629AAE00C64BB0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				2B2F387421629AA100C64BB0 /* Finding A UserTests */,
 				2B2F387F21629AA100C64BB0 /* Finding A UserUITests */,
 				2B2F385E21629AA000C64BB0 /* Products */,
+				2B2F388E21629AAE00C64BB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				2B2F388221629AA100C64BB0 /* Info.plist */,
 			);
 			path = "Finding A UserUITests";
+			sourceTree = "<group>";
+		};
+		2B2F388E21629AAE00C64BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F388F21629AAE00C64BB0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
